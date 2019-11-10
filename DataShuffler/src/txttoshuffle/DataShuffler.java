@@ -79,7 +79,7 @@ public class DataShuffler {
 	public static void main(String[] args) throws IOException {
 		DataShuffler test = new DataShuffler();
 		// path to your input file
-		String[] a = test.txtToArray("C:\\Users\\ximan\\Desktop\\ErdosCA.txt");//takes the data and puts in a file
+		String[] a = test.txtToArray("C:\\Users\\ximan\\Desktop\\ErdosCA.txt");//takes the data and puts in a files
 		test.shuffeler(a); //Shuffles the data in the list
 		test.outputFile("C:\\Users\\ximan\\Desktop\\ThapaSimantaShuffled.txt");//location where you want your file to be outputed
 	}
